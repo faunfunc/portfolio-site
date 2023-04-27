@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400&family=Poppins&display=swap');
+/* font-family: 'Nunito', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+/* RESET*/
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    /* text shadow */
+    --TXTSHADOW1: 1px 1px 1px #fff;
+    /* card shadow */
+    --SHADOW1: 3px 2px 2px #6da3bd;
+    --SHADOW2: 3px 2px 2px #5e9959;
+    --SHADOW3: 3px 2px 2px #81a745;
+}
+
+body {
+    background-image: url(/images/bg-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.my-card {
+    background-color: #333;
+}
+
+a:any-link {
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.info-cards {
+    background-color: #333;
+    color: #fff;
+}
+
+.info-card-1 {
+    box-shadow: var(--SHADOW1);
+    background-color: hsla(200, 38%, 58%, 0.116);;
+}
+.info-card-2 {
+    box-shadow: var(--SHADOW2);
+    background-color: hsla(115, 26%, 47%, 0.116);
+}
+.info-card-3 {
+    box-shadow: var(--SHADOW3);
+    background-color: hsla(83, 42%, 46%, 0.116);
+}
+
+.info-1 {
+    text-shadow: var(--TXTSHADOW1);
+    color: #6da3bd;
+}
+
+.info-2 {
+    text-shadow: var(--TXTSHADOW1);
+    color: #5e9959;
+}
+
+.info-3 {
+    text-shadow: var(--TXTSHADOW1);
+    color: #81a745;
+}
+
+.pbar-1 {
+    background-color: #6da3bd;
+    color: #000;
+    font-weight: bold;
+}
+
+.pbar-2 {
+    background-color: #5e9959;
+    color: #000;
+    font-weight: bold;
+}
+
+.pbar-3 {
+    background-color: #81a745;
+    color: #000;
+    font-weight: bold;
+}
+
+.bi {
+    color: white;
+    font-size: 25px;
+}
